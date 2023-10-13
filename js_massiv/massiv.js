@@ -47,10 +47,10 @@ for (const fruit of fruits) {
 
 
 
-const salaries = [12000, 20000, 30000, 50000];
-let totalSalaries = 0;
-for (const salary of salaries) {
-    totalSalaries = salary + totalSalaries;
-    console.log(${totalSalaries} = ${salary} + ${totalSalaries});
-};
-console.log(totalSalaries);
+// const salaries = [12000, 20000, 30000, 50000];
+// let totalSalaries = 0;
+// for (const salary of salaries) {
+//     totalSalaries = salary + totalSalaries;
+//     console.log(${totalSalaries} = ${salary} + ${totalSalaries});
+// };
+// console.log(totalSalaries);
