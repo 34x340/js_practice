@@ -17,15 +17,15 @@
 
 
 
-// // // const numbers = [
-// // //     1000,
-// // //     ...[1, 2, 3],
-// // //     5000,
-// // //     ...[4, 5, 6],
-// // //     7000,
-// // //     ...[7, 8, 9],
-// // //     9000,
-// // //   ];
+// const numbers = [
+//     1000,
+//     ...[1, 2, 3],
+//     5000,
+//     ...[4, 5, 6],
+//     7000,
+//     ...[7, 8, 9],
+//     9000,
+//   ];
 
 // // // // const numbers = [1000, 1, 2, 3, 5000, 4, 5, 6, 7000, 7, 8, 9, 9000]
 // // // console.log(numbers)
@@ -79,24 +79,71 @@
 //     y: 2,
 // }
 
-const defaultSettings = {
-    theme: 'light',
-    showNotifications: true,
-    hideSidebar: false,
-  };
+// const defaultSettings = {
+//     theme: 'light',
+//     showNotifications: true,
+//     hideSidebar: false,
+//   };
 
-  const userSettings = {
-    showNotifications: false,
-    hideSidebar: true,
-  };
+//   const userSettings = {
+//     showNotifications: false,
+//     hideSidebar: true,
+//   };
+
+// // const newDefaultSettings = {
+// //     ...defaultSettings, ...userSettings
+// // }
+
+// console.log(newDefaultSettings);
 
 // const newDefaultSettings = {
-//     ...defaultSettings, ...userSettings
+//     theme: 'light', showNotifications: false, hideSidebar: true
 // }
 
-console.log(newDefaultSettings);
+////////////////////////////////////////////////////////////////////
 
-const newDefaultSettings = {
-    theme: 'light', showNotifications: false, hideSidebar: true
-}
+// const numbers = [
+//   1000,
+//   ...[1, 2, 3],
+//   5000,
+//   ...[4, 5, 6],
+//   7000,
+//   ...[7, 8, 9],
+//   9000,
+// ];
 
+// const [num1, num2, num3, num4, num5, num6, num7, num8, num9, num10,
+//       num11, num12
+// ] = numbers;
+
+// console.log(num1);
+// console.log(num2);
+// console.log(num3);
+// console.log(num4);
+// console.log(num5);
+// console.log(num6);
+// console.log(num7);
+// console.log(num8);
+// console.log(num9);
+// console.log(num10);
+// console.log(num11);
+// console.log(num12);
+
+const numbers = [
+  1000,
+  [1, 2, 3],
+  5000,
+  [4, 5, 6],
+  7000,
+  [7, 8, 9],
+  9000,
+];
+
+const [num1, array1, num2, array2, num3, array3] = numbers
+
+console.log(num1);
+console.log(array1);
+console.log(num2);
+console.log(array2);
+console.log(num3);
+console.log(array3);
