@@ -56,11 +56,52 @@
 //     }
 // })
 
-const box = document.querySelector("#box")
+// const box = document.querySelector("#box")
 
-document.addEventListener("keydown", (event) => {
-    console.log(event.code  )
-    if (document.code === "ArrowLeft") {
-      document.box.style.transform = "translate(-50%, -100%)"
-    }
-})
+// document.addEventListener("keydown", (event) => {
+//     console.log(event.code  )
+//     if (document.code === "ArrowLeft") {
+//       document.box.style.transform = "translate(-50%, -100%)"
+//     }
+// })
+
+// const boxElement = document.querySelector("div") 
+// boxElement.style.width = "100"
+// boxElement.style.height = "100"
+// boxElement.style.backgroundColor = "pink"
+// console.log(boxElement)
+
+// boxElement.addEventListener("mouseover", (event) => {
+//   boxElement.style.background = "violet"
+//   })
+  
+//   boxElement.addEventListener("mouseout", (event) => {
+//   boxElement.style.background = "pink"
+//   })
+
+// boxElement.addEventListener("mousemove", (event) => {
+//   console.log(event)
+// })
+
+
+// const buttonClear = document.querySelector(".js-clear")
+// const textScreen = document.querySelector(".js-output")
+
+// document.addEventListener("keydown", (event) => {
+//   textScreen.textContent +=  event.key
+// })
+// document.addEventListener("click", (event) => {
+  
+// })
+
+// const block = document.querySelector('.block');
+
+// document.addEventListener('mousemove', e => {
+// block.style.marginLeft = `${e.clientX-25}px`;
+// block.style.marginTop = `${e.clientY-25}px`;
+// });
+
+const infoEl = document.querySelector('#key');
+const keys = []
+document.addEventListener('keydown', e => keys.push(e.code));
+console.log(keys)
